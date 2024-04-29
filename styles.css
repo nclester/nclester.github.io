@@ -1,16 +1,16 @@
 body { 
-  background: [Beige];
+  background: #F5F5DC;
   font-family: Ariel, Helvetica, sans-serif;
-}
+}ho
 h1{
-    color: [White];
+    color: White;
     text-align: center;
 }
 .assign{
   display: flex;
   padding 10px;
   margin 10px;
-  background: [Beige];
+  background: Beige;
 }
 .assign img {
   width: 200px;
