@@ -1,0 +1,17 @@
+body { 
+  background: [Beige];
+  font-family: Ariel, Helvetica, sans-serif;
+}
+h1{
+    color: [White];
+    text-align: center;
+}
+.assign{
+  display: flex;
+  padding 10px;
+  margin 10px;
+  background: [Beige];
+}
+.assign img {
+  width: 200px;
+  padding: 10px;
