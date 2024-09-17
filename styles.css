@@ -1,5 +1,5 @@
 body {
-background: FFF8DC;
+background-color: FFF8DC;
 font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
@@ -7,5 +7,5 @@ color: white;
 text-align: center;
 }
 .about {
- color: #00FFFF;
+ background-color: #00FFFF;
 }
