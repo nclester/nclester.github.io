@@ -5,9 +5,10 @@ font-family: Arial, Helvetica, sans-serif;
 h1 {
 color: white;
 text-align: center;
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .about {
-  color: white;
+  color: #FF69B4;
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 .skills {
@@ -15,7 +16,7 @@ text-align: center;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 .projects {
- color: #FFF8DC;
+ color: #191970;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 .contact {
