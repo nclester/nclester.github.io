@@ -24,6 +24,8 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 .PSImage {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
   width: 150px;
-  length: 150px;
 }
