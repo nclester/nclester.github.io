@@ -26,7 +26,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   height: auto;
   float: left;
   overflow: hidden;
-  z-index: 1;
 }
 .PSImage {
   width: 100%; 
