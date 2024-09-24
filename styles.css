@@ -18,6 +18,9 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 .projects {
  color: #191970;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  position: relative;
+  width: 300px;
+  height: auto;
 }
 .projects:hover .overlay {
   width: 100%;
@@ -26,10 +29,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 .contact {
  color: #9400D3;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
-}
-.PSImage {
-  width: 25px;
-  height 25px;
 }
 .overlay {
   position: absolute;
