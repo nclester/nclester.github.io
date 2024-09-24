@@ -43,7 +43,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #00008B;
+  color: white;
   font-size: 24px;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   opacity: 0; 
