@@ -25,14 +25,14 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   width: 300px; 
   height: auto;
   overflow: hidden;
+  border: 5px solid #0E2841;
+  border-radius: 5px;
 }
 .PSImage {
   width: 100%; 
   height: auto; 
   display: block;
-  border-radius: 5px;
-  border: 5px solid #0E2841;
-  border-radius: 5px;
+  box-sizing: border-box;
 }
 .PSImageContainer:hover{
  
