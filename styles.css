@@ -30,6 +30,10 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
  color: #9400D3;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
+.PSImage{
+  width: 100%;
+  height: auto;
+}
 .overlay {
   position: absolute;
   bottom: 0;
