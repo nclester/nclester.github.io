@@ -30,7 +30,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   width: 100%; 
   height: auto; 
   display: block;
-  border-radius: 25%;
+  border-radius: 5px;
 }
 .PSImageContainer:hover{
  
