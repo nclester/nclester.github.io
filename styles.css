@@ -22,7 +22,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSImageContainer {
   position: relative;
-  width: 300px; 
+  width: 600px; 
   height: auto;
   margin-right: 20px;
   float: left;
@@ -50,6 +50,10 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 .PSImageContainer:hover .overlay {
   opacity: 1;
 }
+.PSPara{
+width: 30px;
+}
+
 .contact {
  color: #9400D3;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
