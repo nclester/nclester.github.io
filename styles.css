@@ -45,7 +45,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: #205A94; 
 }
 .PSImageContainer:hover{
-  height: 250px;
+  height: 150px;
 }
 .PSImageContainer:hover .PSImageText {
     display: block;
