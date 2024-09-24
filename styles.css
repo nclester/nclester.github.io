@@ -53,6 +53,15 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 .PSImageContainer:hover .overlay {
   opacity: 1;
 }
+.overlay-link {
+  color: white; /* Keep the text white */
+  text-decoration: none; /* Remove the underline from the link */
+  font-size: 24px; /* Ensure the link text is large enough */
+  transition: color 0.3s ease;
+}
+.overlay-link:hover {
+  color: #ffeb3b; /* Optional: Change link color on hover */
+}
 .contact {
  color: #9400D3;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
