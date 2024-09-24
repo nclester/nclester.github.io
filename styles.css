@@ -24,7 +24,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   position: relative;
   width: 600px; 
   height: auto;
-  margin-right: 20px;
   float: left;
   overflow: hidden;
   z-index: 1;
