@@ -16,33 +16,42 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 .projects {
- color: #191970;
- text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  color: #191970;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+}
+.PSImageContainer {
   position: relative;
-  width: 300px;
+  width: 300px; 
   height: auto;
+  margin: 20px auto; 
 }
-.projects:hover .overlay {
-  width: 100%;
-  left: 0;
-}
-.contact {
- color: #9400D3;
- text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
-}
-.PSImage{
-  width: 100%;
-  height: auto;
+.PSImage {
+  width: 100%; 
+  height: auto; 
+  display: block;
 }
 .overlay {
   position: absolute;
   bottom: 0;
-  left: 100%;
+  left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #008CBA; 
   overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
+  width: 100%;
+  height: 100%; 
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+.image-container:hover .overlay {
+  opacity: 1;
+}
+.contact {
+ color: #9400D3;
+ text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 
