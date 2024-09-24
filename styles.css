@@ -59,9 +59,14 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   font-size: 24px; /* Ensure the link text is large enough */
   transition: color 0.3s ease;
 }
-.overlay-link:hover {
-  color: #ffeb3b; /* Optional: Change link color on hover */
-}
+  .overlay-link {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  white-space: normal; 
+  word-wrap: break-word; 
+  z-index: 3; 
+  }
 .contact {
  color: #9400D3;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
