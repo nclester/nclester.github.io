@@ -23,12 +23,13 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   width: 100%;
   left: 0;
 }
-
 .contact {
  color: #9400D3;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 .PSImage {
+  width: 25px;
+  height 25px;
 }
 .overlay {
   position: absolute;
