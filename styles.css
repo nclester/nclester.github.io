@@ -23,7 +23,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
  color: #9400D3;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
-.PSImage {
+PSImage {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
