@@ -7,15 +7,18 @@ color: white;
 text-align: center;
 text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
 .about {
   color: #FF69B4;
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
+
 .skills {
   color: #6495ED;
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
   overflow: hidden;
 }
+
 .projects {
   color: #191970;
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
@@ -87,10 +90,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     opacity: 1; 
     transform: translateY(0); 
 }
-
-
-
-
 
 .contact {
  color: #9400D3;
