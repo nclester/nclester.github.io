@@ -65,7 +65,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSImageContainer:hover .PSImageText {
     opacity: 1; 
-    transform: translateY(10px); 
+    transform: translateY(20px); 
 }
 
 .ADImageContainer {
