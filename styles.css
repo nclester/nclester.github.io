@@ -39,7 +39,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   border-radius: 5px;
   background-color: white;
   transition: height 0.9s ease;
-  transition: width 0.9s ease;
 }
 .PSImage {
   width: 100%; 
