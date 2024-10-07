@@ -62,6 +62,9 @@ opacity: 0;
   opacity: 0; 
   transform: translateY(30px); 
   transition: opacity 0.4s ease, transform 0.4s ease;
+  font-size: 16px; 
+  line-height: 1.4; 
+  white-space: nowrap; 
 }
 .PSImageContainer:hover {
   height: 235px; 
