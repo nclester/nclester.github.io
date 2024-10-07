@@ -29,11 +29,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   align-items: flex-start; 
   margin-top: 20px;
 }
-.PSImageContainer, .ADImageContainer {
-  flex: 1;
-  margin: 0 10px;
-  position: relative;
-}
+
 .PSImageContainer {
   position: relative;
   width: 250px; 
@@ -84,33 +80,24 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   display: block;
   box-sizing: border-box;
 }
-.AffinityDiagramImage {
-  display: none; 
-  width: 100%; 
-  height: auto;
-  margin-top: 10px; 
-}
+
 .ADImageText {
   text-align: center;
   font-weight: bold;
-  width: 100%; 
-  height: auto;
   padding: 10px;
   background-color: white; 
   color: #205A94; 
   opacity: 0; 
-  transform: translateY(20px); 
+  transform: translateY(30px); 
   transition: opacity 0.4s ease, transform 0.4s ease; 
 }
+
 .ADImageContainer:hover{
   height: 235px
 }
 .ADImageContainer:hover .ADImageText {
-  opacity: 1; 
-  transform: translateY(0); 
-}
-.ADImageContainer:hover .ADPng {
-  display: block;
+    opacity: 1; 
+    transform: translateY(-20px); 
 }
 
 .contact {
