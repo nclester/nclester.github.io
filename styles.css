@@ -23,6 +23,16 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   color: #191970;
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
+.project-container {
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start; 
+  margin-top: 20px;
+}
+.PSImageContainer, .ADImageContainer {
+  flex: 1;
+  margin: 0 10px;
+}
 .PSImageContainer {
   position: relative;
   width: 250px; 
