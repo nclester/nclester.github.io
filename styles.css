@@ -46,6 +46,9 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   display: block;
   box-sizing: border-box;
 }
+.PSHoverImage{
+  opacity: 0;
+}
 .PSImageText {
   text-align: center;
   font-weight: bold;
