@@ -46,7 +46,9 @@ position: relative;
   display: block;
   box-sizing: border-box;
 }
-
+.PSHoverImage{
+opacity: 0;
+}
 .PSImageText {
   position: absolute;
   bottom: 10px; 
