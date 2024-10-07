@@ -41,8 +41,8 @@ position: relative;
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: auto; 
+  width: 250px;
+  height: 80px;
   display: block;
   box-sizing: border-box;
 }
