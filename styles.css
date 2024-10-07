@@ -32,6 +32,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 .PSImageContainer, .ADImageContainer {
   flex: 1;
   margin: 0 10px;
+  position: relative;
 }
 .PSImageContainer {
   position: relative;
@@ -89,7 +90,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   height: auto;
   margin-top: 10px; 
 }
-
 .ADImageText {
   text-align: center;
   font-weight: bold;
@@ -103,9 +103,12 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 .ADImageContainer:hover{
   height: 235px
 }
-.ADImageContainer:hover .PSImageText {
-    opacity: 1; 
-    transform: translateY(0); 
+.ADImageContainer:hover .ADImageText {
+  opacity: 1; 
+  transform: translateY(0); 
+}
+.ADImageContainer:hover .ADPng {
+  display: block;
 }
 
 .contact {
