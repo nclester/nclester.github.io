@@ -93,6 +93,8 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 .ADImageText {
   text-align: center;
   font-weight: bold;
+  width: 100%; 
+  height: auto;
   padding: 10px;
   background-color: white; 
   color: #205A94; 
