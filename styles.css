@@ -24,9 +24,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 .project-container {
-  display: flex;
-  justify-content: space-around; 
-  align-items: flex-start; 
   margin-top: 20px;
 }
 
