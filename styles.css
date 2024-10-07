@@ -32,36 +32,41 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
 .PSImageContainer {
   position: relative;
-  width: 250px; 
-  height: 80px; 
+  width: 250px;
+  height: 235px;
   overflow: hidden;
   border: 5px solid #0E2841;
   border-radius: 5px;
   background-color: white;
-  transition: height 0.9s ease;
 }
 .PSImage {
-  width: 100%; 
-  height: auto; 
-  display: block;
-  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+.HoverContent {
+  position: absolute;
+  top: 0;
+  left: 100%; 
+  display: flex;
+  align-items: center;
+  transition: transform 0.9s ease; 
+}
+.HoverPSImage {
+  width: 150px; 
+  height: auto;
 }
 .PSImageText {
-  text-align: center;
-  font-weight: bold;
   padding: 10px;
-  background-color: white; 
-  color: #205A94; 
-  opacity: 0; 
-  transform: translateY(30px); 
-  transition: opacity 0.4s ease, transform 0.4s ease; 
+  font-weight: bold;
+  background-color: white;
+  color: #205A94;
+  margin-left: 10px;
 }
 .PSImageContainer:hover{
   height: 235px;
 }
-.PSImageContainer:hover .PSImageText {
-    opacity: 1; 
-    transform: translateY(-20px); 
+.PSImageContainer:hover .HoverContent {
+  transform: translateX(-100%); 
 }
 
 .ADImageContainer {
