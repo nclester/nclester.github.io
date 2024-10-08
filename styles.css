@@ -44,6 +44,14 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   box-sizing: border-box;
 }
 .PSHoverImage{
+   position: relative;
+  width: 250px; 
+  height: 80px; 
+  overflow: hidden;
+  border: 5px solid #0E2841;
+  border-radius: 5px;
+  background-color: white;
+  transition: height 0.9s ease, width 0.5s ease 0.9s;
   opacity: 0;
 }
 .PSImageText {
