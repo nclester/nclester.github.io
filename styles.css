@@ -96,6 +96,16 @@ width: 100%;
   transform: translateY(30px); 
   transition: opacity 0.4s ease, transform 0.4s ease; 
 }
+.ADText{
+ text-align: center;
+ font-weight: bold;
+ padding: 10px;
+ background-color: white; 
+ color: #205A94; 
+ opacity: 0;   
+ transform: translateY(30px); 
+ transition: opacity 0.4s ease, transform 0.4s ease; 
+}
 .ADImageContainer:hover{
   height: 235px
 }
