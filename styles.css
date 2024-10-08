@@ -43,7 +43,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   display: block;
   box-sizing: border-box;
 }
-.PSHoverImage{
+.HoverPSImage{
   opacity: 0;
 }
 .PSImageText {
@@ -64,7 +64,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     opacity: 1; 
     transform: translateY(-20px); 
 }
-.PSImageContainer:hover .PSHoverImage{
+.PSImageContainer:hover .HoverPSImage{
   opacity: 1;
 }
 
