@@ -113,7 +113,7 @@ width: 100%;
 }
 .ADImageContainer:hover .ADImageText {
   opacity: 1; 
-  transform: translateY(-40px); 
+  transform: translateY(-80px); 
 }
 
 .contact {
