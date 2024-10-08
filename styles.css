@@ -48,6 +48,8 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSImageText {
  position: absolute;
+ left: 0;
+ right: 0;
  text-align: center;
  font-weight: bold;
  padding: 10px;
