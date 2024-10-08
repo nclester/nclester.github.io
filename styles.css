@@ -110,7 +110,7 @@ width: 100%;
  transition: height 0.9s ease, width 0.5s ease 0.9s;
 }
 .ADImageContainer:hover{
-  height: 235px;
+  height: 360px;
   width: 500px;
 }
 .ADImageContainer:hover .ADImageText {
