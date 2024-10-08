@@ -44,6 +44,8 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   box-sizing: border-box;
 }
 .HoverPSImage{
+  height: auto;
+  width: auto;
   opacity: 0;
 }
 .PSImageText {
