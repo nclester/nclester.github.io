@@ -58,7 +58,7 @@ width: 100%;
 }
 .PSImageContainer:hover{
    height: 360px;
-  width: 400px;
+  width: 200px;
 }
 .PSImageContainer:hover .PSImageText {
   position: absolute;
