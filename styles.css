@@ -56,6 +56,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSImageContainer:hover{
   height: 235px;
+  width: 1000px
 }
 
 .PSImageContainer:hover .PSImageText {
