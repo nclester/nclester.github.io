@@ -105,8 +105,6 @@ width: 100%;
  background-color: white; 
  color: #205A94; 
  opacity: 0;   
- transform: translateY(30px); 
- transition: height 0.9s ease, width 0.5s ease 0.9s;
 }
 .ADImageContainer:hover{
   height: 360px;
