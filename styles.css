@@ -35,7 +35,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   border: 5px solid #0E2841;
   border-radius: 5px;
   background-color: white;
-  transition: height 0.9s ease, width 0.5s ease;
+ transition: height 0.9s ease, width 0.5s ease 0.9s;
 }
 .PSImage {
   width: 250px; 
@@ -45,19 +45,15 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSHoverImage{
   opacity: 0;
-  transition: opacity 0.4s ease;
 }
 .PSImageText {
- position: absolute;
- bottom: 10px;
-  left: 50%;
-  transform: translateX(-50%) translateY(30px);
  text-align: center;
  font-weight: bold;
  padding: 10px;
  background-color: white; 
  color: #205A94; 
  opacity: 0;   
+ transform: translateY(30px); 
  transition: opacity 0.4s ease, transform 0.4s ease; 
 }
 .PSImageContainer:hover{
@@ -66,7 +62,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSImageContainer:hover .PSImageText {
     opacity: 1; 
-    transform: translateX(-50%) translateY(0); 
+    transform: translateY(-20px); 
 }
 .PSImageContainer:hover .PSHoverImage{
   opacity: 0;
