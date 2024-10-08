@@ -52,6 +52,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   border-radius: 5px;
   background-color: white;
   transition: opacity 0.4s ease, transform 0.4s ease; 
+  transform: translateY(60px); 
   opacity: 0;
 }
 .PSImageText {
@@ -72,8 +73,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     opacity: 1; 
     transform: translateY(-20px); 
 }
-.PSImageContainer:hover .PSHoverImage{
-  transform: translateX(-100px); 
+.PSImageContainer:hover .PSHoverImage{ 
   opacity: 1;
 }
 
