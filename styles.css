@@ -37,7 +37,6 @@ position: relative;
   background-color: white;
   transition: height 0.9s ease, width 0.9s ease 0.9s;
 }
-
 .PSImage {
   position: absolute;
   top: 0;
@@ -50,7 +49,7 @@ position: relative;
 .PSHoverImage{
 opacity: 0;
 }
-PSImageText {
+.PSImageText {
   position: absolute;
   bottom: 10px; 
   left: 0;
@@ -62,31 +61,20 @@ PSImageText {
   color: #205A94; 
   opacity: 0; 
   transform: translateY(30px); 
-  transition: opacity 0.4s ease, transform 0.4s ease; 
+  transition: opacity 0.4s ease;
   font-size: 16px; 
   line-height: 1.4;
+  white-space: normal; 
+  word-wrap: break-word;
   width: 90%; 
-  max-height: 180px; 
-  overflow: hidden; 
-}
-.PSImageTextWrapper {
-    position: absolute;
-    bottom: 10px; 
-    left: 0; 
-    right: 0; 
-    text-align: center;
-    transition: opacity 0.4s ease, transform 0.4s ease; 
 }
 .PSImageContainer:hover {
-    width: 400px;
+  height: 235px; 
+  width: 400px;
 }
 .PSImageContainer:hover .PSImageText {
     opacity: 1; 
     transform: translateY(0); 
-}
-.PSImageContainer:not(:hover) .PSImageText {
-    opacity: 0; 
-    transform: translateY(30px); 
 }
 
 .ADImageContainer {
