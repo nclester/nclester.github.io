@@ -68,6 +68,10 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   word-wrap: break-word;
   width: 90%; 
 }
+.PSImageTextWrapper{
+  width: 250px; 
+  height: 300px;
+}
 .PSImageContainer:hover {
   width: 400px;
   height: 200px;
