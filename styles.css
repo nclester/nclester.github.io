@@ -58,7 +58,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSImageContainer:hover{
   height: 235px;
-    transition: width 0.5s ease 0.9s;
+  transition: width 0.5s ease 0.9s;
 }
 .PSImageContainer:hover .PSImageText {
     position: absolute;
