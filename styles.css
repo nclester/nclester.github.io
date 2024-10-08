@@ -31,7 +31,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   display: flex;
   align-items: center;
   position: relative;
-  width: auto; 
+  width: 250px; 
   height: 80px; 
   overflow: hidden;
   border: 5px solid #0E2841;
@@ -61,6 +61,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSImageContainer:hover{
   height: 235px;
+  width: auto;
 }
 .PSImageContainer:hover .PSImageText {
     opacity: 1; 
