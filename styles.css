@@ -68,11 +68,6 @@ opacity: 0;
   word-wrap: break-word;
   width: 90%; 
 
-  
-.PSImageTextWrapper{
-  position: absolute;
-  
-}
 .PSImageContainer:hover {
   height: 235px; 
   width: 400px;
