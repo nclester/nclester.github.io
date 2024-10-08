@@ -51,8 +51,7 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   border: 5px solid #0E2841;
   border-radius: 5px;
   background-color: white;
-  transition: opacity 0.4s ease, transform 0.4s ease; 
-  transform: translateY(60px); 
+  transition: height 0.9s ease, width 0.5s ease 0.9s;
   opacity: 0;
 }
 .PSImageText {
@@ -67,14 +66,6 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .PSImageContainer:hover{
   height: 235px;
-}
-.PSImageContainer:hover .PSImageText {
-    position: absolute;
-    opacity: 1; 
-    transform: translateY(-20px); 
-}
-.PSImageContainer:hover .PSHoverImage{ 
-  opacity: 1;
 }
 
 .ADImageContainer {
@@ -109,11 +100,16 @@ width: 100%;
 
 .ADImageContainer:hover{
   height: 360px;
-  width: 500px;
+  width: 1000px;
 }
 .ADImageContainer:hover .ADImageText {
+  position: absolute;
   opacity: 1; 
   transform: translateY(-20px); 
+}
+.PSImageContainer:hover .PSHoverImage{ 
+ transform: translateX(60px); 
+  opacity: 1;
 }
 
 .contact {
