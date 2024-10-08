@@ -104,10 +104,11 @@ width: 100%;
  color: #205A94; 
  opacity: 0;   
  transform: translateY(30px); 
- transition: opacity 0.4s ease, transform 0.4s ease; 
+ transition: height 0.9s ease, width 0.5s ease 0.9s; 
 }
 .ADImageContainer:hover{
-  height: 235px
+  height: 235px;
+  width: 500px;
 }
 .ADImageContainer:hover .ADImageText {
   opacity: 1; 
