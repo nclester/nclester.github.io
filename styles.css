@@ -61,11 +61,11 @@ opacity: 0;
   color: #205A94; 
   opacity: 0; 
   transform: translateY(30px); 
-  transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease, transform 0.4s ease; 
   font-size: 16px; 
   line-height: 1.4;
-  white-space: nowrap; 
   width: 90%; 
+  max-height: 60px; 
   overflow: hidden; 
 }
 .PSImageContainer:hover {
