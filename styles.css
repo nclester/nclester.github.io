@@ -97,8 +97,9 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   height: 235px
 }
 .ADImageContainer:hover .ADImageText {
-    opacity: 1; 
-    transform: translateY(-20px); 
+  position: absolute;  
+  opacity: 1; 
+  transform: translateY(-20px); 
 }
 
 .contact {
