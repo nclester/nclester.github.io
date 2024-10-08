@@ -61,16 +61,16 @@ text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   height: 235px;
   width: 1000px
 }
+.PSImageContainer:hover .PSImageText {
+  position: relative;
+  left: 20px;
+  opacity: 1; 
+  transform: translateY(-20px); 
+}
 .PSImageContainer:hover .HoverPSImage {
   opacity: 1; 
   transform: translateY(-20px); 
 }
-.PSImageContainer:hover .PSImageText {
-  position: absolute;
-  opacity: 1; 
-  transform: translateY(-20px); 
-}
-
 
 .ADImageContainer {
   position: relative;
