@@ -145,8 +145,8 @@ width: 100%;
   box-sizing: border-box;
 }
 .SketchImageContainer:hover{
-  height: 360px;
-  width: 450px;
+  height: 1000px;
+  width: 1000px;
 }
 .SketchImageContainer:hover .ADImageText {
   position: absolute;
