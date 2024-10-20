@@ -145,7 +145,7 @@ width: 100%;
   box-sizing: border-box;
 }
 .SketchImageContainer:hover{
-  height: 250px;
+  height: 500px;
   width: 250px;
 }
 .SketchImageContainer:hover .SketchImageText {
