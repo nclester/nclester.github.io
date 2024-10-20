@@ -140,15 +140,15 @@ width: 100%;
   transform: translateY(30px); 
   transition: opacity 0.4s ease, transform 0.4s ease; 
 }
-.SketchMain.jpeg{
+.SketchMain.png{
  display: block;
   box-sizing: border-box;
 }
 .SketchImageContainer:hover{
-  height: 1000px;
-  width: 1000px;
+  height: 250px;
+  width: 250px;
 }
-.SketchImageContainer:hover .ADImageText {
+.SketchImageContainer:hover .SketchImageText {
   position: absolute;
   opacity: 1; 
   transform: translateY(-20px); 
