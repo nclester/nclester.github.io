@@ -18,6 +18,15 @@ border-radius: 25%;
 height: 150px;
 width: 150px;
 }
+.HoverResImage{
+  width: 250px; 
+  height: 80px; 
+  display: block;
+  box-sizing: border-box;
+}
+
+
+
 .skills {
   color: #6495ED;
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
