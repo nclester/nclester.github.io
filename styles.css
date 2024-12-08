@@ -205,7 +205,7 @@ width: 100%;
  display: block;
   box-sizing: border-box;
 }
-.SketchImageContainer:hover{
+.TriangleTitle:hover{
   height: 410px;
   width: 250px;
 }
