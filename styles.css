@@ -171,6 +171,54 @@ width: 100%;
   transform: translateY(-20px); 
 }
 
+
+.TriangleProjectContainer {
+  position: relative;
+  width: 250px; 
+  height: 80px; 
+  overflow: hidden;
+  border: 5px solid #0E2841;
+  border-radius: 5px;
+  background-color: white;
+  transition: height 0.9s ease, width 0.5s ease 0.9s;
+}
+.TrianglePng {
+  width: 250px; 
+  height: 80px; 
+  display: block;
+  box-sizing: border-box;
+}
+.TriangleImgPng{
+width: 100%;
+}
+.TriangleTitle {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  background-color: white; 
+  color: #205A94; 
+  opacity: 0; 
+  transform: translateY(30px); 
+  transition: opacity 0.4s ease, transform 0.4s ease; 
+}
+.TriangleImage.png{
+ display: block;
+  box-sizing: border-box;
+}
+.SketchImageContainer:hover{
+  height: 410px;
+  width: 250px;
+}
+.TriangleProjectContainer:hover .TriangleTitle {
+  position: absolute;
+  opacity: 1; 
+  transform: translateY(-20px); 
+}
+
+
+
+
+
 .contact {
  color: #9400D3;
  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
