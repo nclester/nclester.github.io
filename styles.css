@@ -206,8 +206,8 @@ width: 100%;
   box-sizing: border-box;
 }
 .TriangleProjectContainer:hover{
-  height: 1000px;
-  width: 1000px;
+  height: 410px;
+  width: 250px;
 }
 .TriangleProjectContainer:hover .TriangleTitle {
   position: absolute;
