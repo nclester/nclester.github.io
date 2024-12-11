@@ -209,7 +209,7 @@ width: 100%;
   height: 410px;
   width: 250px;
 }
-.TriangleProjectContainer:hover .TrianlgeImageText {
+.TriangleProjectContainer:hover .TriangleImageText {
   position: absolute;
   opacity: 1; 
   transform: translateY(-20px); 
