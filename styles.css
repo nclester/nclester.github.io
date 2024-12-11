@@ -191,7 +191,7 @@ width: 100%;
 .TriangleImgPng{
 width: 100%;
 }
-.TriangleTitle {
+.TriangleImageText {
   text-align: center;
   font-weight: bold;
   padding: 10px;
@@ -214,9 +214,6 @@ width: 100%;
   opacity: 1; 
   transform: translateY(-20px); 
 }
-
-
-
 
 
 .contact {
